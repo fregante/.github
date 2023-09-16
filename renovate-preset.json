@@ -12,5 +12,11 @@
   },
   "schedule": [
     "every 5 months"
-  ]
+  ],
+  "packageRules": [{
+    "groupName": "linters",
+    "matchPackageNames": [
+      "xo"
+    ]
+  }]
 }
